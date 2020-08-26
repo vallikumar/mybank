@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "banking-app-frontend": {
@@ -130,6 +130,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "banking-app-frontend"
+    }
+  },
+  "defaultProject": "banking-app-frontend",
+  "cli": {
+    "analytics": "5afc0f9d-8110-4630-87ec-96e64c4394bf"
+  }
 }
